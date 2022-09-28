@@ -1,3 +1,5 @@
+#Q1 loops
+
 list = [12, 75, 150, 180, 145, 525, 50]
 for number in list:
     if number > 500:
@@ -6,4 +8,6 @@ for number in list:
         continue
     elif number % 5 == 0:
         print(number)
+
+
 
